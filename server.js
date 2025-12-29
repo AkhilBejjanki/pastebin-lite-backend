@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
-const pastesRouter = require("./routes/pastes");
+const pastesRouter = require("./routes/paste");
 const redis = require("./redis");
 
 const app = express();
